@@ -42,3 +42,59 @@ var tag = document.createElement('script');
                     return false;
                 });
             });
+            $(window).load(function(){
+                jQuery('#Titre5').click(function(){
+                    //console.log('test');
+                    console.log(player);
+                    player.seekTo(120);
+                    return false;
+                });
+            });
+            $(window).load(function(){
+                jQuery('#Titre6').click(function(){
+                    //console.log('test');
+                    console.log(player);
+                    player.seekTo(120);
+                    return false;
+                });
+            });
+            $(window).load(function(){
+                jQuery('#Titre7').click(function(){
+                    //console.log('test');
+                    console.log(player);
+                    player.seekTo(120);
+                    return false;
+                });
+            });
+            $(window).load(function(){
+                jQuery('#Titre8').click(function(){
+                    //console.log('test');
+                    console.log(player);
+                    player.seekTo(120);
+                    return false;
+                });
+            });
+            $(window).load(function(){
+                jQuery('#Titre9').click(function(){
+                    //console.log('test');
+                    console.log(player);
+                    player.seekTo(120);
+                    return false;
+                });
+            });
+            $(window).load(function(){
+                jQuery('#Titre10').click(function(){
+                    //console.log('test');
+                    console.log(player);
+                    player.seekTo(120);
+                    return false;
+                });
+            });
+            $(window).load(function(){
+                jQuery('#Titre11').click(function(){
+                    //console.log('test');
+                    console.log(player);
+                    player.seekTo(120);
+                    return false;
+                });
+            });
