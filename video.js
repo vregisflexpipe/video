@@ -5,8 +5,8 @@ var tag = document.createElement('script');
             var player;
             function onYouTubePlayerAPIReady() {
                 player = new YT.Player('player', {
-                    height: '390',
-                    width: '640',
+                    height: '470',
+                    width: '834',
                     videoId: 'YDAXwJrbHzM'
                 });
             }
