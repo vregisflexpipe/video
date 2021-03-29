@@ -1,61 +1,107 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-        <style>body {
-            font-family: "Roboto";
-            font-weight: 600;
-        } a {
-            color: #000;
-        } a:hover {
-            color: #f60;
-        }.orange {
-            color: #f60;
-        }.video-responsive{
-            overflow:hidden;
-            padding-bottom:56.25%;
-            position:relative;
-            height:0;
-        }.video-responsive iframe{
-            left:0;
-            top:0;
-            height:100%;
-            width:100%;
-            position:absolute;
-        }</style>
-    </head>
-    <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+<style>
+.target {
+    width:565px;
+    height:315px;
+}
+.target > div {
+    display:none;
+}
 
-        <div class="video-responsive"><div id="player"></div></div>
-            <div style="background-color:#eee; padding:25px">
-                <h2>Table of content:</h3>
-                <h5>Click on a subject to skip to the desired content</h5>
-                <a href="#" id="Titre1"><span class="orange">00:00</span> | Expert and topic presentation</a><br>
-                <a href="#" id="Titre2"><span class="orange">00:00</span> | What is Shoplogix?</a><br>
-                <a href="#" id="Titre3"><span class="orange">00:00</span> | What is your definition of a Kaizen Event?</a><br>
-                <a href="#" id="Titre4"><span class="orange">00:00</span> | How many times should we spend on a Kaizen Event?</a><br>
-                <a href="#" id="Titre5"><span class="orange">00:00</span> | When can you say that your achieved your goal?</a><br>
-                <a href="#" id="Titre6"><span class="orange">00:00</span> | How to convince the upper management that it's not a waste of time?</a><br>
-                <a href="#" id="Titre7"><span class="orange">00:00</span> | What are the best advices for leading a Kaizen Event</a><br>
-                <a href="#" id="Titre8"><span class="orange">00:00</span> | What Challenges you can cross while doing a Kaizen Event?</a><br>
-                <a href="#" id="Titre9"><span class="orange">00:00</span> | How to choose the good team?</a><br>
-                <a href="#" id="Titre10"><span class="orange">00:00</span> | What is your role as a Kaizen leader?</a><br>
-                <a href="#" id="Titre11"><span class="orange">00:00</span> | What are the most common pitfalls you can encounter?</a>
-            </div>
-        
-        <script src="video.js"></script>
-    </body>
-</html>
+.target > div:target{
+    display:block;
+}</style>
+
+<div class="btn-group">
+    <a href="#m1" class="btn--primary">Titre 1</a>
+    <a href="#m2" class="btn--primary">Titre 2</a>
+    <a href="#m3" class="btn--primary">Titre 3</a>
+    <a href="#m4" class="btn--primary">Titre 4</a>
+    <a href="#m5" class="btn--primary">Titre 5</a>
+    <a href="#m6" class="btn--primary">Titre 6</a>
+    <a href="#m7" class="btn--primary">Titre 7</a>
+    <a href="#m8" class="btn--primary">Titre 8</a>
+    <a href="#m9" class="btn--primary">Titre 9</a>
+
+</div>
+
+<table border="0">
+          <tr>
+            <td>
+              <hr>
+              <a href="#m1">
+                fea1
+              </a>
+              <br>
+              <hr>
+              <a href="#m2">
+                fea2
+              </a>
+              <br>
+              <hr>
+              <a href="#m3">
+                fea3
+              </a>
+              <br>
+              <hr>
+              <a href="#m4">
+                fea4
+              </a>
+              <br>
+              <hr>
+              <a href="#m5">
+                fea5
+              </a>
+              <br>
+              <hr>
+              <a href="#m6">
+                fea6
+              </a>
+              <br>
+              <hr>
+              <a href="#m7">
+                fea7
+              </a>
+              <br>
+              <hr>
+              <a href="#m8">
+                fea8
+              </a>
+              <br>
+              <hr>
+              <a href="#m9">
+                fea9
+              </a>
+              <hr>
+            </td>
+          </tr>
+        </table>
+
+<div class="target">
+    <div id="m1">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/z0DItJ6zHpM?start=1&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div id="m2">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/z0DItJ6zHpM?start=5&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div id="m3">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/z0DItJ6zHpM?start=10&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div id="m4">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/z0DItJ6zHpM?start=15&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div id="m5">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/z0DItJ6zHpM?start=20&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div id="m6">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/z0DItJ6zHpM?start=25&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div id="m7">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/z0DItJ6zHpM?start=30&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div id="m8">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/z0DItJ6zHpM?start=35&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div id="m9">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/z0DItJ6zHpM?start=40&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>   
+</div>
