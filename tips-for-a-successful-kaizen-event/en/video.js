@@ -7,7 +7,7 @@ var tag = document.createElement('script');
                 player = new YT.Player('player', {
                     height: '470',
                     width: '834',
-                    videoId: 'XvH3DOazeNQ&t'
+                    videoId: 'XvH3DOazeNQ'
                 });
             }
             $(window).load(function(){
