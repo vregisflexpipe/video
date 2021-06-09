@@ -78,7 +78,7 @@ var tag = document.createElement('script');
                 jQuery('#Titre9').click(function(){
                     //console.log('test');
                     console.log(player);
-                    player.seekTo(946);
+                    player.seekTo(828);
                     return false;
                 });
             });
