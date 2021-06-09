@@ -59,7 +59,7 @@ var tag = document.createElement('script');
                 });
             });
             $(window).load(function(){
-                jQuery('#Titre6').click(function(){
+                jQuery('#Titre7').click(function(){
                     //console.log('test');
                     console.log(player);
                     player.seekTo(411);
@@ -67,7 +67,7 @@ var tag = document.createElement('script');
                 });
             });
             $(window).load(function(){
-                jQuery('#Titre6').click(function(){
+                jQuery('#Titre8').click(function(){
                     //console.log('test');
                     console.log(player);
                     player.seekTo(798);
@@ -75,7 +75,7 @@ var tag = document.createElement('script');
                 });
             });
             $(window).load(function(){
-                jQuery('#Titre6').click(function(){
+                jQuery('#Titre9').click(function(){
                     //console.log('test');
                     console.log(player);
                     player.seekTo(828);
